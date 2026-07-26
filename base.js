@@ -13,12 +13,12 @@ class BasePage {
     async browserClose() {
         await this.driver.quit();
     }
-    
+
 
 }
 
 const pages = new BasePage();
-pages.browserOpen("https://demowebshop.tricentis.com/");
-pages.browserClose();
+await pages.browserOpen("https://demowebshop.tricentis.com/");
+await pages.browserClose();
 
 // aysnc vs sync

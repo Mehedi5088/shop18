@@ -1,0 +1,15 @@
+{
+  "name": "batch18",
+  "version": "1.0.0",
+  "description": "It is testing projrcts for automation practice",
+  "type": "module",
+  "main": "base.js",
+  "scripts": {
+    "test": "node base.js"
+  },
+  "author": "mehedi",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.46.0"
+  }
+}

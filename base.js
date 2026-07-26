@@ -13,6 +13,7 @@ class BasePage {
     async browserClose() {
         await this.driver.quit();
     }
+    
 
 }
 
